@@ -43,11 +43,8 @@ export const Checkbox = (props: ICheckbox) => {
   return (
     <div className="flex items-center gap-6">
       <input
-        className="checkbox-checked-content appearance-none w-4 h-4 border border-neutral-300 rounded checked:bg-indigo-600 checked:border-indigo-600 indeterminate:bg-indigo-600 indeterminate:border-indigo-600
-                  relative
-                  indeterminate:after:content-[''] indeterminate:after:absolute indeterminate:after:left-1
-                  indeterminate:after:top-2.5 indeterminate:after:w-4 indeterminate:after:h-1
-                indeterminate:after:bg-white"
+        className="checkbox-checked-content checkbox-indeterminate-content appearance-none w-4 h-4 border border-neutral-300 rounded checked:bg-indigo-600 checked:border-indigo-600 indeterminate:bg-indigo-600 indeterminate:border-indigo-600
+                  relative"
         type="checkbox"
         id="checkbox"
         checked={props.isChecked}

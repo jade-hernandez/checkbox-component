@@ -19,4 +19,8 @@
   .checkbox-checked-content {
     @apply checked:after:absolute checked:after:left-[5px] checked:after:top-[1px] checked:after:h-[10px] checked:after:w-[5px] checked:after:rotate-45 checked:after:rounded-[1px] checked:after:border-b-2 checked:after:border-r-2 checked:after:border-white checked:after:content-[''];
   }
+
+  .checkbox-indeterminate-content {
+    @apply indeterminate:after:absolute indeterminate:after:left-[2px] indeterminate:after:top-[6px] indeterminate:after:h-[2px] indeterminate:after:w-[10px] indeterminate:after:rounded-[1px] indeterminate:after:bg-white indeterminate:after:content-[''];
+  }
 }
