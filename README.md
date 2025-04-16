@@ -1,5 +1,9 @@
 # Checkbox Component
 
+## Live site URL
+
+- [https://checkbox-component-livid.vercel.app/](https://checkbox-component-livid.vercel.app/)
+
 ## Step by step guide for creating a new project based on this one
 
 ### Local setup
