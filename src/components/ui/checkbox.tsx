@@ -10,17 +10,6 @@
 
 */
 
-// const checkboxVariants = cva("", {
-//   variants: {
-//     variant: {
-//       default: "",
-//     }
-//   },
-//   defaultVariants: {
-//     variant: "default"
-//   }
-// });
-
 interface ICheckbox extends React.HTMLProps<HTMLInputElement> {
   isChecked?: boolean;
   isIndeterminate?: boolean;
